@@ -6,7 +6,28 @@
     <title>Hello, Messenger. </title>
 </head>
 <body>
-      
+    
+    <br>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : '638838683317765',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v5.0'
+        });
+      };
+    </script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+    
+    <div class="fb-messengermessageus" 
+      messenger_app_id="<638838683317765>" 
+      page_id="<110054407134797>"
+      color="<blue>"
+      size="<standard>">
+    </div>
+    <br>      
+    
     "Hello, world." Version 6.  Integrated with IBM Watson & FB Messenger for a limited time. (No longer active.) <br>
     <br>    
     To test an absolute link... <br>
