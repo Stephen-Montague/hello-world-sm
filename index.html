@@ -3,11 +3,31 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Hello, world.</title>
+    <title>Hello, Messenger. </title>
 </head>
 <body>
-    "Hello, world." Version 5 <br>
-    <br>
+    
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : 'your-app-id',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v5.0'
+        });
+      };
+    </script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+    
+    <div class="fb-messengermessageus" 
+      messenger_app_id="<638838683317765>" 
+      page_id="<110054407134797>"
+      color="<blue>"
+      size="<standard>">
+    </div>
+    
+    "Hello, world." Version 6.  For a limited time, integrated with IBM Watson & FB Messenger. <br>
+    <br>    
     To test an absolute link... <br>
     Here's how school was done in the 1990's, with <a href="https://www.gocomics.com/calvinandhobbes/2019/11/05">Calvin & Hobbes</a>. <br>
     <br>
